@@ -1,0 +1,127 @@
+.banner {
+    position: relative;
+}
+
+.banner-imagem{
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+
+.banner-titulo {
+    color: #fdfdfd;
+    font-family: pacifivo, cursive;
+    
+    position: absolute;
+    
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 30%;
+
+    text-align: center;
+    transform: translate(-50 , -50%);
+    width: 100%;
+}
+
+.sobre-titulo {
+    
+    width: 1199px;
+    height: 99px;
+
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 90px;
+    text-align: center;
+
+    color: #8D0606;
+}
+
+.sobre {
+    text-align: center;
+}
+
+
+/* Responsividade */
+@media screen and (min-width: 0){
+    .banner-imagem {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner-imagem {
+        display: block;
+    }
+}
+ /* Responsividade do banner */
+
+@media screen and (min-width: 0) {
+    .banner-titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-titulo {
+        font-size: 5.0625rem;
+    }
+}
+
+/* Responsividade imagem */
+
+@media screen and (min-width: 0) {
+    .banner-imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner-imagem {
+        height: calc(100vh - 72px);
+    }
+}
+
+/* Responsividade sobre */
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+}
+
+/* Responsividade titulo */
+
+
+@media screen and (min-width: 0px) {
+    .sobre-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-titulo {
+        font-size: 3.1875rem;
+    }
+}
+.sobre__descricao {
+    color: #595959;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0px) {
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
+}
